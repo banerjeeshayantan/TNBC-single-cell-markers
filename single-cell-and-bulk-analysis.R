@@ -196,11 +196,7 @@ ggplot(df_long, aes(x = Labels, y = expression, fill = Labels)) +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5))
 
-
-
-
-
-
+#Bulk RNA-seq analysis - all the processed files are already supplied in the repository under the "data" directory
 GSE25055_processed = read.delim("GSE25055/GSE25055_processed.txt")
 GSE25065_processed = read.delim("GSE25065/GSE25065_processed.txt")
 GSE20271_processed = read.delim("GSE20271/GSE20271_processed.txt")
